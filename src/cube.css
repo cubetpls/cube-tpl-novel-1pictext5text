@@ -1,0 +1,124 @@
+.serial-list .item {
+  padding-bottom: 6px;
+  border-bottom: 1px dotted #dddddd;
+  margin-bottom: 8px;
+}
+.serial-list .item-special {
+  padding-bottom: 8px;
+}
+.serial-list .item:last-child {
+  border: none;
+}
+.serial-list .item .image{
+  float: left;
+  width: 162px;
+  height: 90px;
+  position: relative;
+  margin-right: 10px;
+}
+.serial-list .item .image img {
+  width: 162px;
+  height: 90px;
+}
+.serial-list .item .image .update {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  color: #fff;
+  background-color: rgba(0,0,0,.4);
+}
+.serial-list .item .image-right {
+  max-height: 90px;
+}
+.serial-list .item .image-text .title {
+  font-weight: bold;
+  height: 36px;
+  line-height: 18px;
+  overflow: hidden;
+  margin-top: 3px;
+}
+.serial-list .item  .image-text .title.special {
+  text-indent: -6px;
+}
+.serial-list .item  .image-text .author {
+  height: 26px;
+  margin-top: 10px;
+}
+.serial-list .item  .image-text .tag {
+  display: inline-block;
+  padding: 0 10px;
+  height: 16px;
+  line-height: 16px;
+  background-color: #f5f5f5;
+  color: #999;
+  border-radius: 2px;
+}
+
+
+.serial-list .item .index {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  line-height: 14px;
+  border-radius: 2px;
+  text-align: center;
+  background: #f5f5f5;
+}
+.serial-list .item.hover .index {
+  background: #00c13c;
+  color: #f5f5f5;
+  margin-top: 38px;
+}
+.serial-list .item .image-text{
+  display: none;
+}
+.serial-list .item.hover .image-text {
+  display: block
+}
+.serial-list .item.item.hover .only-text {
+  display: none;
+}
+.serial-list .only-text .update {
+  float: right;
+  color: #999;
+}
+.serial-list .only-text .update i {
+  color: #333;
+  padding:0 2px;
+}
+.serial-list .only-text.special {
+  text-indent: -3px;
+}
+.serial-list .only-text .title {
+  display: inline-block;
+  max-width: 195px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.serial-list .only-text .tag {
+  display: inline-block;
+  padding: 0 10px;
+  height: 16px;
+  line-height: 16px;
+  background-color: #f5f5f5;
+  color: #999;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+.serial-list .only-text {
+  line-height: 14px;
+}
+
+@media cube and (expand) {
+  #logo {
+    margin-top:80px;
+    height: 60px;
+  }
+}

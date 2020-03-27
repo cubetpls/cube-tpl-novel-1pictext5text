@@ -1,0 +1,70 @@
+# 标准小说 cube 模板，1图文 + 5文字内容
+
+## 介绍
+标准小说类模板。
+
+## 使用
+```
+cubetool init <cubeid> -t https://github.com/ntt360/cube-tpl-novel-1pictext5text.git
+```
+或简写：
+```
+cubetool init <cubeid> -t ntt360/cube-tpl-novel-1pictext5text
+```
+
+## UI预览
+![标准资讯类模板 UI 预览图](https://raw.githubusercontent.com/ntt360/cube-tpl-novel-1pictext5text/master/ui/ui.png)
+
+## data格式
+```json
+[
+  {
+    "images": "https://hao3.qhimg.com/t01aab0ef30c6adcc18.jpg",
+    "title": "快递客服揭秘快递行业那点事",
+    "link": "https://story.hao.360.cn/topic/KdXYQEHnLnKDPT",
+    "update": "更新至10章",
+    "author": "陆倾城",
+    "tag": "职场"
+  },
+  {
+    "images": "https://hao2.qhimg.com/t01f42f5a87b26abcb3.jpg",
+    "title": "18年老北漂的传奇人生",
+    "link": "https://story.hao.360.cn/topic/KtnUPkblYnz8Pj",
+    "update": "更新至203章",
+    "author": "蓝道大叔",
+    "tag": "北漂"
+  },
+  {
+    "images": "https://hao4.qhimg.com/t01582552c3b7758d6c.jpg",
+    "title": "男性灭绝编年史",
+    "link": "https://story.hao.360.cn/topic/LtjVQUPkLnKCPw",
+    "update": "更新至7章",
+    "author": "字母神君",
+    "tag": "科幻"
+  },
+  {
+    "images": "https://hao3.qhimg.com/t01cc55f79d1f21337c.jpg",
+    "title": "下岗女工浮沉记",
+    "link": "https://story.hao.360.cn/topic/KArWP0LjLXG8PT",
+    "update": "更新至75章",
+    "author": "00小金鱼00",
+    "tag": "年代"
+  },
+  {
+    "images": "https://hao1.qhimg.com/t011d484a1b60dbbd6b.jpg",
+    "title": "心酸女人的家暴反抗之路",
+    "link": "https://story.hao.360.cn/topic/MdHVQkXqLnvDQw",
+    "update": "更新至66章",
+    "author": "安意若兮",
+    "tag": "女性"
+  },
+  {
+    "images": "https://hao3.qhimg.com/t01d2f8a12e810dada8.jpg",
+    "title": "求医记:我陪父亲治病的真实经历",
+    "link": "https://story.hao.360.cn/topic/LdXZPUbnLXC6Oj",
+    "update": "更新至26章",
+    "author": "会飞的王动",
+    "tag": "男性"
+  }
+]
+```

@@ -1,0 +1,18 @@
+{
+	"id": "Q3hnXZzGv1o",
+	"version": "1.0.0",
+	"name": "南瓜屋连载故事",
+	"idn": "pumpkin_novel",
+	"keywords": [
+		""
+	],
+	"ie": 8,
+	"disable_expand": false,
+	"launchimg": "assets/launchimg.png",
+	"files": [
+		"cube.tpl",
+		"cube.css",
+		"cube.js",
+		"assets/launchimg.png"
+	]
+}
