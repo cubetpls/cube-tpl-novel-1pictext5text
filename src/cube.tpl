@@ -6,7 +6,7 @@
          <div class="image-text">
             <a href="{{item.link}}">
                <div class="image">
-                  <img src="{{item.images|clipImage: '162_90_'}}" onerror="this.onerror=null; this.src='https://hao2.qhimg.com/t01aa5080fbf6ae879b.png'" alt="">
+                  <img src="{{item.images|clipImage: '162_90_'}}" on-error="this.onerror=null; this.src='https://hao2.qhimg.com/t01aa5080fbf6ae879b.png'" alt="">
                   <span class="update" r-html="{{item.update}}"></span>
                </div>
             </a>
